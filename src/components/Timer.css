@@ -1,0 +1,100 @@
+.timer-section {
+  text-align: center;
+  padding: 20px;
+
+  border-bottom: 2px solid #333;
+}
+
+.period-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.period-label {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.period-indicator {
+  height: 2rem;
+  width: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: 3px solid black;
+  border-radius: 50%;
+  background: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+.period-indicator.active {
+  color: white;
+  background-color: black;
+  transform: scale(1.2);
+  box-shadow: 
+    0 0 0 2px white,
+    0 0 0 4px #333;
+}
+
+.timer-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 3px solid black;
+  border-radius: 4px;
+  padding: 10px 0;
+
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 700;
+  font-size: 48px;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-controls button {
+  flex-grow: 1;
+  padding: 16px;
+  border-radius: 4px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.start-btn {
+  background: #d4edda;
+  border: 3px solid #28a745;
+}
+
+.stop-btn {
+  background: hsl(355, 70%, 91%);
+  border: 3px solid #dc3545;
+}
+
+.reset-btn { 
+  background: hsl(46, 100%, 90%);
+  border: 3px solid #ffc107;
+}

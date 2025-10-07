@@ -1,0 +1,148 @@
+.score-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fencer {
+    flex-grow: 1;
+
+    padding: 20px;
+}
+
+.fencer-name {
+    text-align: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Patrick Hand', cursive;
+
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+
+    padding: 20px 0;
+
+    margin-bottom: 10px;
+}
+
+.score-btns {
+    display: flex;
+    gap: 8px
+
+}
+
+.fencer-name{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.score-btns button {
+    flex-grow: 1;
+
+    padding: 10px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    border: 2px solid #333;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.penalty-section{
+    text-align: center;
+}
+
+.penalties{
+    display: flex;
+}
+
+.penalty-fencer {
+    flex-grow: 1;
+    padding: 10px 20px 20px 20px;
+}
+
+.penalty-btns {
+    display: flex;
+    gap: 5px   
+}
+
+.penalty-btns button {
+    flex-grow: 1;
+
+    font-family: 'Patrick Hands', cursive;
+    font-weight: 600;
+
+    padding: 8px 4px;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.penalty-btn.yellow-card{
+    background: #fff3cd;
+    border: 2px solid #856404;
+}
+
+.penalty-btn.red-card{
+    background: #f8d7da;
+    border: 2px solid #721c24;
+}
+
+.penalty-btn.black-card{
+    background: #343a40;
+    border: 2px solid #000;
+
+    color: white;
+}
+
+.penalty-cards{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    margin: 10px 0;
+
+    min-height: 42px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+
+    width: 28px;
+    height: 38px;
+}
+
+.yellow-card {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffe08a 100%);
+    border: 2px solid #856404;
+    border-radius: 4px;
+}
+
+.red-card {
+    background: linear-gradient(135deg, #f8d7da 0%, #f1b0b7 100%);
+    border: 2px solid #721c24;
+    border-radius: 4px;
+}
+
+.black-card {
+    background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+    border:2px solid #000;
+    border-radius: 4px;
+
+    color: white
+}
